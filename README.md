@@ -115,7 +115,7 @@ To run a different scenario, edit this file only. No code changes are needed.
 
 ### Note on the search term and category path
 
-The Transmission filter is a car-specific filter. eBay shows it only after the results are narrowed to a car category, which is why the flow clicks **eBay Motors → Cars & Trucks** before applying it. When searching for `mazda mx-5`, no car listings with a Transmission filter were available from the test location, so `volkswagen` is used instead. The recorded evidence is kept in the submission's `Limitations` folder. `searchTerm` can be switched back to `mazda mx-5` in `data/testData.json` at any time.
+The Transmission filter is a car-specific filter. eBay shows it only after the results are narrowed to a car category, which is why the flow clicks **eBay Motors → Cars & Trucks** before applying it. When searching for `mazda mx-5`, no car listings with a Transmission filter were available from the test location, so `volkswagen` is used instead. The recorded evidence is in `evidence/Limitations.zip`. A recording of a successful run, with screenshots and the Playwright trace, is in `evidence/Submission-records-and-screenshots.zip`. `searchTerm` can be switched back to `mazda mx-5` in `data/testData.json` at any time.
 
 ---
 
