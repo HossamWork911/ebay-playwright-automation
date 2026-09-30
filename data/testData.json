@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://www.ebay.com/",
+  "searchTerm": "volkswagen",
+  "categoryPath": ["eBay Motors", "Cars & Trucks"],
+  "filter": {
+    "name": "Transmission",
+    "value": "Manual"
+  }
+}
